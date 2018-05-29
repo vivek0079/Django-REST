@@ -1,0 +1,4 @@
+Django==1.11.8
+djangorestframework==3.6.2
+Pygments==2.2.0
+pytz==2018.4
