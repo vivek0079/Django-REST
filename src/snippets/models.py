@@ -39,7 +39,7 @@ class Snippet(models.Model):
 
 
     def get_api_url(self, request=None):
-        return reverse("snippets:snippet-rud", kwargs={'pk': self.id}, request=request)
+        return reverse("snippets:snippet-detail", kwargs={'pk': self.id}, request=request)
 
     def save(self, *args, **kwargs):
         lexer = get_lexer_by_name(self.language)
