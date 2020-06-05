@@ -1,6 +1,6 @@
 certifi==2018.4.16
 chardet==3.0.4
-Django==1.11.8
+Django==1.11.29
 djangorestframework==3.6.2
 httpie==0.9.9
 idna==2.6
